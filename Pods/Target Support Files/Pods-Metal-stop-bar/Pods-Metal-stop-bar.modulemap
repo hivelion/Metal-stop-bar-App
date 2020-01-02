@@ -1,0 +1,6 @@
+framework module Pods_Metal_stop_bar {
+  umbrella header "Pods-Metal-stop-bar-umbrella.h"
+
+  export *
+  module * { export * }
+}
