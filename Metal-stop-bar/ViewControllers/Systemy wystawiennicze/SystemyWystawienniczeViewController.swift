@@ -9,18 +9,33 @@
 import UIKit
 
 class SystemyWystawienniczeViewController: UIViewController {
+    
+    var categoryNumber: Int = 24
         
+    @IBAction func goToProductsSW(_ sender: UIButton) {
+        
+        categoryNumber = sender.tag
+        performSegue(withIdentifier: TextStrings.SystemyWystVC.goToProductsSW, sender: self)
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        tabBarItem = UITabBarItem(title: TextStrings.SystemyWystVC.barItemTitle, image: UIImage(named: TextStrings.SystemyWystVC.imageNmae), tag: 3)
+        tabBarItem = UITabBarItem(title: TextStrings.SystemyWystVC.barItemTitle, image: UIImage(named: TextStrings.SystemyWystVC.imageName), tag: 2)
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToProductsSW" {
+            let destinationController = segue.destination as! ProductsSWViewController
+            destinationController.msproducts.removeAll()
+            destinationController.categoryNumb = categoryNumber
+        }
+    }
 
     /*
     // MARK: - Navigation

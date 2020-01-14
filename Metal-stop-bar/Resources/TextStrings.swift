@@ -21,11 +21,13 @@ enum TextStrings {
     }
     
     enum SystemyWystVC {
+        static let goToProductsSW = "goToProductsSW"
         static let barItemTitle = "Systemy wystawiennicze"
-        static let imageNmae = "profiles"
+        static let imageName = "profiles"
     }
     
     enum AkcesoriaVC {
+        static let goToProductsAkc = "goToProductsAkc"
         static let barItemTitle = "Akcesoria"
         static let imageName = "customer-support"
     }

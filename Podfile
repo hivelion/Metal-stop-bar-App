@@ -1,4 +1,4 @@
-platform :ios, '12.0'
+platform :ios, '13.2'
 
 target 'Metal-stop-bar' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -6,5 +6,6 @@ target 'Metal-stop-bar' do
 
   # Pods for Metal-stop-bar
 
+pod 'ProgressHUD'
 
 end

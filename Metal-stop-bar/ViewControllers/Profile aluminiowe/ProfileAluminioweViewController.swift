@@ -16,8 +16,6 @@ class ProfileAluminioweViewController: UIViewController {
         
         categoryNumber = sender.tag
         performSegue(withIdentifier: TextStrings.ProfileAluVC.goToProducts, sender: self)
-        print(sender.tag)
-        print("categoryNumber ma wartość: \(categoryNumber)")
     }
     
     required init?(coder aDecoder: NSCoder) {

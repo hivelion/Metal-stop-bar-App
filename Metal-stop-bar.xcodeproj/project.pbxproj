@@ -3,11 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A10854923CA1656000B8C53 /* ProduktAkcesoriaInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10854823CA1656000B8C53 /* ProduktAkcesoriaInfoViewController.swift */; };
 		9A5DA91B2348AF0100631894 /* MSProdukt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DA91A2348AF0100631894 /* MSProdukt.swift */; };
+		9A6A127A23C0D79700F78F5E /* Pods_Metal_stop_bar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A67448AB03FB416835460 /* Pods_Metal_stop_bar.framework */; };
+		9A6A127B23C0D79700F78F5E /* Pods_Metal_stop_bar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C34A67448AB03FB416835460 /* Pods_Metal_stop_bar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9AEFCC6E23C4F6BE00C6AB81 /* ProductsSWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFCC6D23C4F6BE00C6AB81 /* ProductsSWViewController.swift */; };
+		9AEFCC7423C4F9FF00C6AB81 /* ProductSWInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFCC7323C4F9FF00C6AB81 /* ProductSWInfoViewController.swift */; };
+		9AEFCC7823C50CEC00C6AB81 /* ProductsAkcesoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFCC7723C50CEC00C6AB81 /* ProductsAkcesoriaViewController.swift */; };
 		AA4B6E2A2377479E0095D0AF /* TextStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B6E292377479E0095D0AF /* TextStrings.swift */; };
 		AAE913612375670300B46090 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE913602375670300B46090 /* APIClient.swift */; };
 		AAE9136523756BCD00B46090 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9136423756BCD00B46090 /* APIResponse.swift */; };
@@ -25,9 +31,27 @@
 		B4A2C654232C02950097FE38 /* ProduktInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2C653232C02950097FE38 /* ProduktInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9A6A127C23C0D79700F78F5E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9A6A127B23C0D79700F78F5E /* Pods_Metal_stop_bar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		96B0FADA01F5C30D681685FE /* Pods-Metal-stop-bar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal-stop-bar.debug.xcconfig"; path = "Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar.debug.xcconfig"; sourceTree = "<group>"; };
+		3B34037F4E2DEDCB838119FA /* Pods-Metal-stop-bar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal-stop-bar.debug.xcconfig"; path = "Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar.debug.xcconfig"; sourceTree = "<group>"; };
+		9A10854823CA1656000B8C53 /* ProduktAkcesoriaInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduktAkcesoriaInfoViewController.swift; sourceTree = "<group>"; };
 		9A5DA91A2348AF0100631894 /* MSProdukt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSProdukt.swift; sourceTree = "<group>"; };
+		9AEFCC6D23C4F6BE00C6AB81 /* ProductsSWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSWViewController.swift; sourceTree = "<group>"; };
+		9AEFCC7323C4F9FF00C6AB81 /* ProductSWInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSWInfoViewController.swift; sourceTree = "<group>"; };
+		9AEFCC7723C50CEC00C6AB81 /* ProductsAkcesoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAkcesoriaViewController.swift; sourceTree = "<group>"; };
 		AA4B6E292377479E0095D0AF /* TextStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStrings.swift; sourceTree = "<group>"; };
 		AAE913602375670300B46090 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		AAE9136423756BCD00B46090 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
@@ -45,7 +69,8 @@
 		B4A2C64F232BFBF80097FE38 /* produkt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = produkt.swift; sourceTree = "<group>"; };
 		B4A2C651232BFC7F0097FE38 /* blachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blachy.swift; sourceTree = "<group>"; };
 		B4A2C653232C02950097FE38 /* ProduktInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduktInfoViewController.swift; sourceTree = "<group>"; };
-		C171C8E0D8C5D92AF847431E /* Pods-Metal-stop-bar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal-stop-bar.release.xcconfig"; path = "Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar.release.xcconfig"; sourceTree = "<group>"; };
+		C34A67448AB03FB416835460 /* Pods_Metal_stop_bar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_stop_bar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D2019004AAC763796CFEF3 /* Pods-Metal-stop-bar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal-stop-bar.release.xcconfig"; path = "Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6A127A23C0D79700F78F5E /* Pods_Metal_stop_bar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +88,18 @@
 		70E3A1328BDD400E3068683D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C34A67448AB03FB416835460 /* Pods_Metal_stop_bar.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CC52F0568E2041F4026509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B34037F4E2DEDCB838119FA /* Pods-Metal-stop-bar.debug.xcconfig */,
+				F3D2019004AAC763796CFEF3 /* Pods-Metal-stop-bar.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		9A5DA91E2348B3B600631894 /* sztywne */ = {
@@ -73,6 +109,36 @@
 				B4A2C651232BFC7F0097FE38 /* blachy.swift */,
 			);
 			path = sztywne;
+			sourceTree = "<group>";
+		};
+		9AEFCC6F23C4F94F00C6AB81 /* Systemy wystawiennicze */ = {
+			isa = PBXGroup;
+			children = (
+				B419AC2E2315844C00E70304 /* SystemyWystawienniczeViewController.swift */,
+				9AEFCC6D23C4F6BE00C6AB81 /* ProductsSWViewController.swift */,
+				9AEFCC7323C4F9FF00C6AB81 /* ProductSWInfoViewController.swift */,
+			);
+			path = "Systemy wystawiennicze";
+			sourceTree = "<group>";
+		};
+		9AEFCC7023C4F95C00C6AB81 /* Profile aluminiowe */ = {
+			isa = PBXGroup;
+			children = (
+				B419AC2C2315843600E70304 /* ProfileAluminioweViewController.swift */,
+				B4198F4B2316CDF000504315 /* ProductsViewController.swift */,
+				B4A2C653232C02950097FE38 /* ProduktInfoViewController.swift */,
+			);
+			path = "Profile aluminiowe";
+			sourceTree = "<group>";
+		};
+		9AEFCC7523C50C8800C6AB81 /* Akcesoria */ = {
+			isa = PBXGroup;
+			children = (
+				B419AC302315846200E70304 /* AkcesoriaViewController.swift */,
+				9AEFCC7723C50CEC00C6AB81 /* ProductsAkcesoriaViewController.swift */,
+				9A10854823CA1656000B8C53 /* ProduktAkcesoriaInfoViewController.swift */,
+			);
+			path = Akcesoria;
 			sourceTree = "<group>";
 		};
 		AA4B6E282377477B0095D0AF /* Resources */ = {
@@ -103,12 +169,10 @@
 		AAE9135D2375668700B46090 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9AEFCC7523C50C8800C6AB81 /* Akcesoria */,
+				9AEFCC7023C4F95C00C6AB81 /* Profile aluminiowe */,
+				9AEFCC6F23C4F94F00C6AB81 /* Systemy wystawiennicze */,
 				B419AC322315847600E70304 /* HomeViewController.swift */,
-				B419AC2C2315843600E70304 /* ProfileAluminioweViewController.swift */,
-				B419AC2E2315844C00E70304 /* SystemyWystawienniczeViewController.swift */,
-				B419AC302315846200E70304 /* AkcesoriaViewController.swift */,
-				B4198F4B2316CDF000504315 /* ProductsViewController.swift */,
-				B4A2C653232C02950097FE38 /* ProduktInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -151,8 +215,8 @@
 			children = (
 				B419AC192315828600E70304 /* Metal-stop-bar */,
 				B419AC182315828600E70304 /* Products */,
-				DF8E5CBC352AE9FC737E3EC5 /* Pods */,
 				70E3A1328BDD400E3068683D /* Frameworks */,
+				74CC52F0568E2041F4026509 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,15 +244,6 @@
 			path = "Metal-stop-bar";
 			sourceTree = "<group>";
 		};
-		DF8E5CBC352AE9FC737E3EC5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96B0FADA01F5C30D681685FE /* Pods-Metal-stop-bar.debug.xcconfig */,
-				C171C8E0D8C5D92AF847431E /* Pods-Metal-stop-bar.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,6 +255,8 @@
 				B419AC132315828600E70304 /* Sources */,
 				B419AC142315828600E70304 /* Frameworks */,
 				B419AC152315828600E70304 /* Resources */,
+				E99ACF82BFD71CF26FE5028A /* [CP] Embed Pods Frameworks */,
+				9A6A127C23C0D79700F78F5E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +336,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E99ACF82BFD71CF26FE5028A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metal-stop-bar/Pods-Metal-stop-bar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -291,11 +365,15 @@
 				B4198F4C2316CDF000504315 /* ProductsViewController.swift in Sources */,
 				B419AC1B2315828600E70304 /* AppDelegate.swift in Sources */,
 				B4A2C652232BFC7F0097FE38 /* blachy.swift in Sources */,
+				9AEFCC7823C50CEC00C6AB81 /* ProductsAkcesoriaViewController.swift in Sources */,
 				B419AC312315846200E70304 /* AkcesoriaViewController.swift in Sources */,
 				B4A2C650232BFBF80097FE38 /* produkt.swift in Sources */,
 				AAE9136523756BCD00B46090 /* APIResponse.swift in Sources */,
 				9A5DA91B2348AF0100631894 /* MSProdukt.swift in Sources */,
 				B419AC2F2315844C00E70304 /* SystemyWystawienniczeViewController.swift in Sources */,
+				9AEFCC6E23C4F6BE00C6AB81 /* ProductsSWViewController.swift in Sources */,
+				9A10854923CA1656000B8C53 /* ProduktAkcesoriaInfoViewController.swift in Sources */,
+				9AEFCC7423C4F9FF00C6AB81 /* ProductSWInfoViewController.swift in Sources */,
 				B4A2C654232C02950097FE38 /* ProduktInfoViewController.swift in Sources */,
 				B419AC2D2315843600E70304 /* ProfileAluminioweViewController.swift in Sources */,
 				B419AC332315847600E70304 /* HomeViewController.swift in Sources */,
@@ -375,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -430,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,17 +520,18 @@
 		};
 		B419AC2A2315828800E70304 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B0FADA01F5C30D681685FE /* Pods-Metal-stop-bar.debug.xcconfig */;
+			baseConfigurationReference = 3B34037F4E2DEDCB838119FA /* Pods-Metal-stop-bar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R7AQQ37XA7;
 				INFOPLIST_FILE = "Metal-stop-bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.dominikkowalski.Metal-stop-bar";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.idee.Metal-stop-bar.development";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,17 +540,18 @@
 		};
 		B419AC2B2315828800E70304 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C171C8E0D8C5D92AF847431E /* Pods-Metal-stop-bar.release.xcconfig */;
+			baseConfigurationReference = F3D2019004AAC763796CFEF3 /* Pods-Metal-stop-bar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R7AQQ37XA7;
 				INFOPLIST_FILE = "Metal-stop-bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.dominikkowalski.Metal-stop-bar";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.idee.Metal-stop-bar.development";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
